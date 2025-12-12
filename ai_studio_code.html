@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO & Identity -->
+    <title>IntelliLedger | AI Financial Autopilot</title>
+    <meta name="description" content="Automate your bookkeeping, tax compliance, and invoicing with IntelliLedger. The CFO in your pocket for startups and SMBs." />
+    <meta name="keywords" content="bookkeeping, ai accounting, tax automation, invoicing, fintech, saas" />
+    <meta name="author" content="IntelliLedger Inc." />
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://getintelliledger.com/" />
+    <meta property="og:title" content="IntelliLedger - Your AI Financial Autopilot" />
+    <meta property="og:description" content="Stop doing data entry. Automate your P&L, Tax Filings, and Invoicing instantly." />
+    <meta property="og:image" content="https://placehold.co/1200x630/4f46e5/ffffff?text=IntelliLedger+Dashboard" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#4f46e5',
+              secondary: '#64748b',
+              success: '#10b981',
+              danger: '#ef4444',
+              background: '#f8fafc',
+              surface: '#ffffff',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body { background-color: #f8fafc; }
+      ::-webkit-scrollbar { width: 8px; height: 8px; }
+      ::-webkit-scrollbar-track { background: #f1f5f9; }
+      ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+      ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
